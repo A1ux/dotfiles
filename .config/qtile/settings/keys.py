@@ -57,6 +57,7 @@ keys = [Key(key[0], key[1], *key[2:]) for key in [
 
     # Browser
     ([mod], "b", lazy.spawn("firefox")),
+    ([mod], "c", lazy.spawn("chromium")),
 
     # File Explorer
     ([mod], "e", lazy.spawn("pcmanfm")),
